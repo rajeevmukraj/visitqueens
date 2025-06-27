@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #F1FAEE;
+    font-family: "Montserrat", sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/queens_background.avif");
+    background-size: cover;
+}
+
+#title {
+    background: #E6AA68;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 119px 0 11px 0;
+}
+
+#caption {
+    background: #E6AA68;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 11px 0 119px 0;
+}
+
+#activities {
+    margin: 0px;
+    padding: 39px 0 54px 0;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 38px;
+    font-optical-sizing: auto;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#middle {
+    background-color: #ade8f4;
+    margin: 0px 0px ;
+    height: 420px
+}
+
+#nature {
+   padding-left: 33px;
+   padding-right: 33px;
+}
+
+#sports {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#cuisine {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.bottom {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    background: #E5F2C9;
+    color: #303633;
+    border-bottom: 6px ridge #E63946;
+    text-shadow: 0 0 3px #A8DADC
+}
+
+#jeev {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 25px ;
+}
+
+#guide-caption {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 0px;
+}
